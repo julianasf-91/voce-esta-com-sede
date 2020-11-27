@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você está com sede?</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Você está com sede?</h1>
+    </header>
+    <section>
+        <div id="foto">   
+            <img id="imagem" src="img/copovazio.png" alt="copo vazio">    
+        </div>
+        <div id="botoes">
+            <button id="botao2" onclick="copoMeio()">Um pouco</button>
+            <button id="botao3" onclick="copoCheio()">Muita sede</button>
+            <button id="botao1" onclick="copoVazio()"><strong>Já bebi água!</strong></button>
+        </div>
+    </section>
+    <footer>
+        <p>Juliana Ferreira - Desenvolvedora Front-End jr</p>
+        <div>
+            <a href="https://www.linkedin.com/in/juliana-sferreira/">
+                <img onmousemove="entrar()" onmouseout="sair()" id="lk" src="img/in.png" alt="Logo Linkedin"> 
+             </a>
+            <a href="https://github.com/julianasf-91">
+                <img onmousemove="entrar2()" onmouseout="sair2()" id="gh" src="img/github.png" alt="Logo GitHub">
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background: rgb(255, 255, 255);
+    font: normal 15pt Arial;
+}
+header {
+    color:rgb(68, 96, 129);
+    text-align: center; /*centraliza o título*/
+
+}
+section {
+    background: rgb(1, 184, 188);
+    border-radius: 20px; /*arredonda as bordas*/
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(78, 83, 88);
+}
+#botoes {
+    margin-top: 30px;
+    text-align: center; 
+}
+div#foto {
+    text-align: center;
+}
+
+footer {
+    color: rgb(1, 184, 188);
+    text-align: center; /*centraliza o CursoemVideo*/
+    font-style: italic;
+    font-size: 16px;
+}
+#botao1, #botao2, #botao3 {
+    font-size: 12pt;
+    border-radius: 10px;
+    padding: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(192, 191, 191); /*sombra da borda*/
+    color: rgb(68, 96, 129);
+}
+#lk, #gh {
+    background-color: rgb(1, 184, 188);
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 50px;
+}
+a {
+    text-decoration: none;
+}
