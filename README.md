@@ -25,19 +25,19 @@ A aplicação permite alterar a imagem de um copo conforme o nível de sede sele
 ## 📂 Estrutura do Projeto
 projeto-sede-js/
 
-│
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-└── img/
-  ├── copovazio.png
-  ├── copomeio.png
-  ├── copocheio.png
-  ├── github.png
-  └── in.png
-
+```bash
+├── index.html 
+├── css/ 
+│ └── style.css 
+├── js/ 
+│ └── script.js 
+└── img/ 
+  ├── copovazio.png 
+  ├── copomeio.png 
+  ├── copocheio.png 
+  ├── github.png 
+  └── in.png 
+```
 
 ---
 
